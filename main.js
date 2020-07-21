@@ -53,6 +53,7 @@ function fetchData(file) {
                 "Title": JSONFILE.name,
                 "Description": JSONFILE.desc,
                 "Cards": CARDS.length,
+                "Actions": ACTIONS.length,
                 "Comments": COMMENTS.length,
                 "Labels": `${LABELS.length}\nLabel(s) ${labelize(LABELS)}`,
                 "Last Activity": JSONFILE.dateLastActivity,
