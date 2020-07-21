@@ -4,7 +4,7 @@ Edit `editme.json`
 
 ```json
 //SYNTAX
-['board ID', 'end result']
+["board ID", "end result"]
 ```
 
 ## NPM Runs
