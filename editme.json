@@ -1,0 +1,23 @@
+{
+    "_syntax":[
+        ["id", "filename"],
+        ["id2","filename2"]
+    ],
+
+    "_example":[
+        ["Vqrkz3KO", "Android Alpha"]
+    ],
+
+    "lookFor":[
+        ["Vqrkz3KO", "Android Alpha - Vqrkz3KO"],
+        ["AExxR9lU", "Desktop - AExxR9lU"],
+        ["7Iv570Jq", "Go Live Secrets - 7Iv570Jq"],
+        ["vLPlnX60", "iOS TestFlight - vLPlnX60"],
+        ["UyU76Esh", "Linux - UyU76Esh"],
+        ["k6jr4NyY", "Overlay - k6jr4NyY"],
+        ["3ubHh1rm", "Website - Vqrkz3KO"]
+    ],
+
+    "INPUT": "input",
+    "OUTPUT": "output"
+}
