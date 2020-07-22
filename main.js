@@ -79,7 +79,8 @@ function fetchData(file) {
             })
         })
     console.log(`------Finished Reading ${file}`);
-    return [INFO, DATA.sort((a,b) => new Date(a["Created On"]).getTime() - new Date(b["Created On"]).getTime())];
+    var DATEDATA = DATA.filter(a => !isNaN(new Date(a["Created On"]).getTime())).sort((a,b) => new Date(a["Created On"]).getTime() - new Date(b["Created On"]).getTime()).concat(DATA.filter(a => isNaN(new Date(a["Created On"]).getTime())));
+    return [INFO, DATEDATA];
 };
 
 function getFromActions(card, actions) {
